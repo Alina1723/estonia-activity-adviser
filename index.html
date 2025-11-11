@@ -4,10 +4,15 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="src/styling.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Elms+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <title>activity advice</title>
   </head>
+  <div class="container">
   <body>
     <h1>Things you can do in Estonia</h1>
+    <div class="adviser-form">
     <h2>AI activity adviser</h2>
     <form>
       <input
@@ -15,9 +20,11 @@
         placeholder="What is usually your favourite travel activity?"
         required
         autofocus
+        class="input-field"
       />
-      <input type="submit" value="Advise please!" />
+      <input type="submit" value="Let's go!" class="button" />
     </form>
+    </div>
     <br />
     <footer>
       This AI project was coded by
@@ -33,6 +40,7 @@
         >Netlify</a
       >
     </footer>
+    </div>
     <script src="src/function.js"></script>
   </body>
 </html>
