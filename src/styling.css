@@ -28,7 +28,7 @@ h2 {
   background-color: #f3f3f3;
   padding: 13px;
   border-radius: 18px;
-  box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
+  box-shadow: 0px 10px 50px rgba(69, 93, 122, 0.2);
 }
 
 form {
@@ -50,17 +50,32 @@ form {
   border: 1px solid rgb(69, 93, 122, 0.3);
   color: #233142;
   background-color: #f95959;
-  transition: all 230ms ease-in-out;
+  transition: all 130ms ease-in-out;
 }
 
-.button :hover {
+.button:hover {
   cursor: pointer;
-  background-color: #c64343;
+  background-color: #ff7676;
+  box-shadow: 0px 2px 5px rgba(65, 50, 100, 0.8);
+}
+
+.generated-activity {
+  font-size: 12px;
+  font-weight: 200;
+  background-color: #f3f3f3;
+  padding: 20px;
+  border-radius: 18px;
+  box-shadow: 0px 10px 50px rgba(69, 93, 122, 0.2);
+  border: 01px solid #f95959;
 }
 
 footer {
   font-size: 10px;
   font-weight: 300;
   text-align: center;
-  line-height: 0;
+  padding-top: 10px;
+}
+
+a {
+  color: #f95959;
 }
