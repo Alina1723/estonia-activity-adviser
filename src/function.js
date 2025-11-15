@@ -19,6 +19,10 @@ function generateActivity(event) {
   let apiKey = "de2o6a7354a9ebbc12abf998t40de9e9";
   let apiUrl = `https://api.shecodes.io/ai/v1/generate?prompt=${prompt}&context=${context}&key=${apiKey}`;
 
+  let generatedField = document.querySelector("#generated-advice");
+  generatedField.classList.remove("hidden");
+  generatedField.innerHTML = `<div class="blink">Best travel experience about ${userInput.value} in Estonia is generating...</div>`;
+
   axios.get(apiUrl).then(displayAdvice);
 }
 
